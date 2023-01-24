@@ -13,6 +13,8 @@ a{
 
 body{
     background-color: #f4f4f4;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -314,7 +316,7 @@ input[type="submit"] {
 }
 
 #main .main-content-4 iframe{
-    border: 1px solid transparent;
+    border: 1px transparent transparent;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #424344;
     
@@ -364,8 +366,9 @@ input[type="submit"] {
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: relative;
-    left: 28%;
+    left: -1%;
 }
 
 #main .main-content-8 .main-content-article-details .heading-article{
@@ -376,6 +379,8 @@ input[type="submit"] {
 
 #main .main-content-8 .main-content-article-details .paragraph-article{
     font-size: 13.5px;
+    position: relative;
+    left: -.7%;
 }
 
 #main .main-content-8 .main-content-article-details .paragraph-article span{
@@ -477,7 +482,7 @@ input[type="submit"] {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 2rem;
-    animation: move 20s both infinite linear;
+    animation: move 30s both infinite linear;
 }
 
 #main .main-content-6 .media-partner-row-1 img{
@@ -490,7 +495,7 @@ input[type="submit"] {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 2rem;
-    animation: move 20s both infinite linear;
+    animation: left 30s both infinite linear;
 
 }
 
@@ -502,7 +507,7 @@ input[type="submit"] {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    animation: move 20s both infinite linear;
+    animation: move 30s both infinite linear;
 }
 
 #main .main-content-6 .media-partner-row-3 img{
@@ -593,5 +598,10 @@ input[type="submit"] {
 @keyframes move{
     from {transform: translateX(-1400px)}
     to {transform: translateX(1400px)}
+}
+
+@keyframes left{
+    from {transform: translateX(1400px)}
+    to {transform: translateX(-1400px)}
 }
 

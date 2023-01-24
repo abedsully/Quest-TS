@@ -13,6 +13,8 @@ a{
 
 body{
     background-color: #f4f4f4;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -737,7 +739,7 @@ input[type="submit"] {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 2rem;
-    animation: move 20s both infinite linear;
+    animation: move 30s both infinite linear;
 }
 
 #main .main-content-6 .media-partner-row-1 img{
@@ -750,7 +752,7 @@ input[type="submit"] {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 2rem;
-    animation: move 20s both infinite linear;
+    animation: left 30s both infinite linear;
 
 }
 
@@ -762,7 +764,7 @@ input[type="submit"] {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    animation: move 20s both infinite linear;
+    animation: move 30s both infinite linear;
 }
 
 #main .main-content-6 .media-partner-row-3 img{
@@ -855,4 +857,9 @@ input[type="submit"] {
 @keyframes move{
     from {transform: translateX(-1400px)}
     to {transform: translateX(1400px)}
+}
+
+@keyframes left{
+    from {transform: translateX(1400px)}
+    to {transform: translateX(-1400px)}
 }
