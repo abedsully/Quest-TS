@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+#main-sign-in .sign-in-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    padding-top: 4rem;
+}   
+
+.sign-in-text{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.sign-in-text h1{
+    font-size: 72px;
+    color: #38B6FF;
+    letter-spacing: 3px;
+}
+
+.sign-in-text p{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+#sign-in-form .input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  
+  .icon {
+    padding: 15px;
+    background: #38B6FF;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .input-field:focus {
+    border: 2px solid #38B6FF;
+  }
+
+#sign-in-form .forget-password a{
+    padding-left: 21.3rem;
+    color: #38B6FF;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+  .btn {
+    background-color: #38B6FF;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid #38B6FF;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    margin-left: 8.25rem;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+.register-here{
+    color: black;
+    font-weight: 500;
+    padding-top: 2rem;
+}
+
+.register-here p{
+    color: black;
+    padding-left: 5.5rem;
+}
+
+.register-here a{
+    color: #38B6FF;
+    text-decoration: underline;
+}
+
+#highlight-event{
+  display: flex;
+  jus
+}
