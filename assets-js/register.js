@@ -4,6 +4,7 @@ function validasi(){
     let email = document.getElementById("email").value.trim()
     let gender = ""
     let lineid = document.getElementById("lineid").value.trim()
+    let reason = document.getElementById("reasons").value.trim()
 
     if(document.getElementById("dot-1").checked){ 
       gender = document.getElementById("dot-1").value
